@@ -38,7 +38,6 @@ Capybara.register_driver :browserstack do |app|
 end
 
 Capybara.default_driver = :browserstack
-Capybara.run_server = false
 
 # Code to stop browserstack local after end of test
 at_exit do
