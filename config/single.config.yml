@@ -6,9 +6,9 @@ common_caps:
   browserstack.use_w3c: true
   bstack:options:
     os: Windows
-    buildName: Capybara-browserstack"
+    buildName: browserstack-build-1
     osVersion: '7'
-    sessionName: Single Session 
+    sessionName: BStack single capybara
     projectName: Test Application
     debug: true
 

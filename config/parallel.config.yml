@@ -5,8 +5,8 @@ key: BROWSERSTACK_ACCESS_KEY
 common_caps:
   browserstack.use_w3c: true
   bstack:options:
-    buildName: Capybara-browserstack"
-    sessionName: Parallel Session 
+    buildName: browserstack-build-1
+    sessionName: BStack parallel capybara
     projectName: Test Application
     debug: true
 
