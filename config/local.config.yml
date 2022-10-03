@@ -6,9 +6,9 @@ common_caps:
   browserstack.use_w3c: true
   bstack:options:
     os: OS X
-    buildName: Capybara-browserstack"
+    buildName: browserstack-build-1
     osVersion: Mojave
-    sessionName: Local Session 
+    sessionName: BStack local capybara
     projectName: Test Application
     debug: true
     local: true
