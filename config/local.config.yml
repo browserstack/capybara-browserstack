@@ -1,4 +1,4 @@
-server: hub-cloud.browserstack.com
+server: hub.browserstack.com
 user: BROWSERSTACK_USERNAME
 key: BROWSERSTACK_ACCESS_KEY
 
@@ -15,4 +15,4 @@ common_caps:
 
 browser_caps:
   - browserName: Chrome
-    browserVersion: '70.0'
+    browserVersion: 'latest'
