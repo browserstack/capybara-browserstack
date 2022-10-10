@@ -3,11 +3,11 @@ user: BROWSERSTACK_USERNAME
 key: BROWSERSTACK_ACCESS_KEY
 
 common_caps:
-  browserstack.use_w3c: true
+  useW3C: true
   bstack:options:
     buildName: browserstack-build-1
     sessionName: BStack parallel capybara
-    projectName: Test Application
+    projectName: BrowserStack Samples
     debug: true
 
 browser_caps:
@@ -16,6 +16,8 @@ browser_caps:
   -
     "browser": "firefox"
   -
-    "browser": "internet explorer"
+    "browser": "edge"
   -
     "browser": "safari"
+    "os": "OS X"
+    "osVersion": "Big Sur"

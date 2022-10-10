@@ -3,13 +3,13 @@ user: BROWSERSTACK_USERNAME
 key: BROWSERSTACK_ACCESS_KEY
 
 common_caps:
-  browserstack.use_w3c: true
+  useW3C: true
   bstack:options:
     os: OS X
     buildName: browserstack-build-1
     osVersion: Mojave
     sessionName: BStack local capybara
-    projectName: Test Application
+    projectName: BrowserStack Samples
     debug: true
     local: true
 
