@@ -1,4 +1,4 @@
-server: hub-cloud.browserstack.com
+server: hub.browserstack.com
 user: BROWSERSTACK_USERNAME
 key: BROWSERSTACK_ACCESS_KEY
 
@@ -10,5 +10,5 @@ common_caps:
 browser_caps:
 - browser: chrome
 - browser: firefox
-- browser: internet explorer
+- browser: edge
 - browser: safari
