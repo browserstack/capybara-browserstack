@@ -3,12 +3,12 @@ user: BROWSERSTACK_USERNAME
 key: BROWSERSTACK_ACCESS_KEY
 
 common_caps:
-  useW3C: true
   bstack:options:
     buildName: browserstack-build-1
     sessionName: BStack parallel capybara
     projectName: BrowserStack Samples
     debug: true
+    useW3C: true
 
 browser_caps:
   -
