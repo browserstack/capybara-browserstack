@@ -3,7 +3,6 @@ user: BROWSERSTACK_USERNAME
 key: BROWSERSTACK_ACCESS_KEY
 
 common_caps:
-  useW3C: true
   bstack:options:
     os: Windows
     buildName: browserstack-build-1
@@ -11,6 +10,7 @@ common_caps:
     sessionName: BStack single capybara
     projectName: BrowserStack Samples
     debug: true
+    useW3C: true
 
 browser_caps:
   - browserName: Chrome
