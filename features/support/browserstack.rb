@@ -19,7 +19,7 @@ CONFIG['key'] = ENV['BROWSERSTACK_ACCESS_KEY'] || CONFIG['key']
 
 Capybara.register_driver :browserstack do |app|
   @caps = CONFIG['common_caps'].merge(CONFIG['browser_caps'][TASK_ID])
-  @caps['bstack:options']['source'] = 'capybara:sample-selenium-4:v1.0'
+  @caps['bstack:options']['source'] = 'capybara:sample-selenium-4:v1.1'
 
   # Code to start browserstack local before start of test
   if @caps['bstack:options'] && @caps['bstack:options']['local'] == true
